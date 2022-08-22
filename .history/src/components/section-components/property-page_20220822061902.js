@@ -381,7 +381,7 @@ class PropertyPage extends Component {
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/3.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/property/land/3.jpg"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">MTS Property Development Company is one of the leading real estate firm in Lagos.</Link></h6>

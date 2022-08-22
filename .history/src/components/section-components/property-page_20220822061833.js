@@ -363,7 +363,7 @@ class PropertyPage extends Component {
 			            <h5 className="widget-title">Popular Feeds</h5>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/1.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/property/land/1.jpg"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">Aimart Realtors constantly works towards property insurance.</Link></h6>
@@ -372,7 +372,7 @@ class PropertyPage extends Component {
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/2.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/property/land/3.jpg"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">I.N.J Real Estate Company is one of the estate agents, property managers.</Link></h6>
@@ -381,7 +381,7 @@ class PropertyPage extends Component {
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/3.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/property/land/3.jpg"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">MTS Property Development Company is one of the leading real estate firm in Lagos.</Link></h6>

@@ -69,7 +69,7 @@ class PropertyPage extends Component {
 			                  <li><Link to="/property-details">For Sell</Link></li>
 			                </ul>
 			                <p>Zahari Properties is a real estate firm in Lagos with collections of real estate properties for sale, rent, lease, shortlet or for a virtual office. </p>
-			                <span className="price">₦ 8,000,650.00</span>
+			                <span className="price">$ 80,650.00</span>
 			              </div>
 			              <div className="product-meta-bottom style-2">
 			                <span>3 <span>Bedroom</span></span>
@@ -326,7 +326,7 @@ class PropertyPage extends Component {
 			          <div className="widget widget-author text-center">
 			            <h4 className="widget-title">About Me</h4>
 			            <div className="thumb">
-			              <img src={publicUrl+"assets/images/author/author3.jpg"} alt="img" />
+			              <img src={publicUrl+"assets/img/agent/1.png"} alt="img" />
 			            </div> 
 			            <div className="details">
 			              <h5>Judith Okafor</h5>
@@ -363,28 +363,28 @@ class PropertyPage extends Component {
 			            <h5 className="widget-title">Popular Feeds</h5>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/1.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/blog/5.png"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6><Link to="/blog-details">Aimart Realtors constantly works towards property insurance.</Link></h6>
+			                <h6><Link to="/blog-details">Dolor eorem ipsum sit amet Lorem ipsum</Link></h6>
 			                <p className="date"><i className="far fa-calendar-alt" />25 Aug 2020</p>
 			              </div>
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/2.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/blog/6.png"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6><Link to="/blog-details">I.N.J Real Estate Company is one of the estate agents, property managers.</Link></h6>
+			                <h6><Link to="/blog-details">Responsive Web And Desktop Develope</Link></h6>
 			                <p className="date"><i className="far fa-calendar-alt" />25 Aug 2020</p>
 			              </div>
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/3.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/blog/7.png"} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6><Link to="/blog-details">MTS Property Development Company is one of the leading real estate firm in Lagos.</Link></h6>
+			                <h6><Link to="/blog-details">Admin Web is Django Highlig Models</Link></h6>
 			                <p className="date"><i className="far fa-calendar-alt" />25 Aug 2020</p>
 			              </div>
 			            </div>
