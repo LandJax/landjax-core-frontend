@@ -24,7 +24,7 @@ class Footer_v1 extends Component {
 							<div className="col-md-4">
 							<img style={{width: "5rem", height: "5rem"}} src={publicUrl+"assets/images/logo.svg"} alt="img" />
 
-							{/* <h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4> */}
+								<h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4>
 							</div>
 							<div className="col-md-8 text-md-right mt-3 mt-md-0">
 								<ul className="social-area">

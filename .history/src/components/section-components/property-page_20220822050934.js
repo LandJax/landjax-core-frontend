@@ -52,7 +52,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/images/author/author1.jpg"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -118,7 +118,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -151,7 +151,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -184,7 +184,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -217,7 +217,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -250,7 +250,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
@@ -283,7 +283,7 @@ class PropertyPage extends Component {
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author1.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property-details">Owner Name</Link></h6>
