@@ -11,11 +11,11 @@ class Page_header extends Component {
 
         return (
 
-		<div className="breadcrumb-area bg-overlay-2" style={{backgroundImage: 'url("'+publicUrl+'assets/images/13.jpg")'}}>
+		<div className="breadcrumb-area bg-overlay-2" style={{backgroundImage: 'url("'+publicUrl+'assets/img/other/7.png")'}}>
 		  <div className="container">
 		    <div className="breadcrumb-inner">
 		      <div className="section-title text-center">
-		        <h2 className="page-title">LANDJAX</h2>
+		        <h2 className="page-title">LAND </h2>
 		        <ul className="page-list">
 		          <li><Link to="/">Home</Link></li>
 		          <li>{ Subheader }</li>

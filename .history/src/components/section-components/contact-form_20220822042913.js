@@ -22,18 +22,13 @@ class ContactForm extends Component {
                   <div className="col-xl-6 col-lg-7 mb-5 mb-lg-0">
                     <div className="contact-details-inner mng-box-shadow">
                       <h4>Register your Interest</h4>
-                      <p>
-                          Register your Interest
-                          Fill out the form, or call us to
-
-                          Schedule an inspection.
-                        </p>
+                      <p>Lorem ipsum dolor  consectetur aLorem ipsum   consectetur adipisicing elit, eiusmod tempor incididunt labore et dolore magna aliqua.minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
                       <div className="row">
                         <div className="col-md-6">
                           <div className="contact-single-list">
-                            <h5>Enugu Office</h5>
+                            <h5>India Office</h5>
                             <ul>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> Okpara Avenue, Enugu Nigeria</li>
+                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> 420 Love Sreet 133/2 Mirpur  Nevis, Caribbean Dhaka</li>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
                             </ul>
@@ -41,7 +36,7 @@ class ContactForm extends Component {
                         </div>
                         <div className="col-md-6">
                           <div className="contact-single-list">
-                            <h5>Abuja Office</h5>
+                            <h5>India Office</h5>
                             <ul>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
@@ -55,7 +50,7 @@ class ContactForm extends Component {
                           <div className="contact-single-date">
                             <p><strong>Monday-Friday:</strong> 9am - 8pm</p>
                             <p><strong>Saturday:</strong> 10 am to 3 pm</p>
-                            <p><strong>Sunday: </strong> Closed</p>
+                            <p><strong>Sunday: </strong> Clossed</p>
                           </div>
                         </div>
                         <div className="col-md-6 align-self-center text-md-right">

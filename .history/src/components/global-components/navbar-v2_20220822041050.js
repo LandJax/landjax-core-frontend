@@ -33,15 +33,15 @@ class NavbarV2 extends Component {
 				            <Link to="/">Home</Link>
 				            <ul className="sub-menu">
 				              <li><Link to="/">Home</Link></li>
-				              <li><Link to="/home-v2">Explore</Link></li>
-				              <li><Link to="/home-v3">Visit</Link></li>
+				              <li><Link to="/home-v2">Home 02</Link></li>
+				              <li><Link to="/home-v3">Home 03</Link></li>
 				            </ul>
 				          </li>
 				          <li className="menu-item-has-children current-menu-item">
 				            <a href="#">Property</a>
 				            <ul className="sub-menu">
 				              <li><Link to="/property">Property</Link></li>
-				              <li><Link to="/property-grid">Main Property</Link></li>
+				              <li><Link to="/property-grid">Property Grid</Link></li>
 				              <li><Link to="/property-details">Property Details</Link></li>
 				            </ul>
 				          </li>

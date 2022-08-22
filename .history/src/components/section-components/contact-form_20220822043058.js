@@ -33,7 +33,7 @@ class ContactForm extends Component {
                           <div className="contact-single-list">
                             <h5>Enugu Office</h5>
                             <ul>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> Okpara Avenue, Enugu Nigeria</li>
+                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> Okpara Avenue, Enugu Nigeri</li>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
                               <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
                             </ul>
@@ -55,7 +55,7 @@ class ContactForm extends Component {
                           <div className="contact-single-date">
                             <p><strong>Monday-Friday:</strong> 9am - 8pm</p>
                             <p><strong>Saturday:</strong> 10 am to 3 pm</p>
-                            <p><strong>Sunday: </strong> Closed</p>
+                            <p><strong>Sunday: </strong> Clossed</p>
                           </div>
                         </div>
                         <div className="col-md-6 align-self-center text-md-right">

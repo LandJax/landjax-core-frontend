@@ -55,7 +55,7 @@ class ContactForm extends Component {
                           <div className="contact-single-date">
                             <p><strong>Monday-Friday:</strong> 9am - 8pm</p>
                             <p><strong>Saturday:</strong> 10 am to 3 pm</p>
-                            <p><strong>Sunday: </strong> Closed</p>
+                            <p><strong>Sunday: </strong> Clossed</p>
                           </div>
                         </div>
                         <div className="col-md-6 align-self-center text-md-right">

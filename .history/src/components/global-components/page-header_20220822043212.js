@@ -11,7 +11,7 @@ class Page_header extends Component {
 
         return (
 
-		<div className="breadcrumb-area bg-overlay-2" style={{backgroundImage: 'url("'+publicUrl+'assets/images/13.jpg")'}}>
+		<div className="breadcrumb-area bg-overlay-2" style={{backgroundImage: 'url("'+publicUrl+'assets/images/other/7.png")'}}>
 		  <div className="container">
 		    <div className="breadcrumb-inner">
 		      <div className="section-title text-center">
