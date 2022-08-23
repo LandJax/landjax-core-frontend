@@ -131,7 +131,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/7.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/property/lands/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -166,7 +166,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/8.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -202,7 +202,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/9.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -238,7 +238,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/1.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/4.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -270,7 +270,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/2.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -302,7 +302,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/3.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/6.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -335,7 +335,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/4.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/1.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -367,7 +367,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/5.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
@@ -399,7 +399,7 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/6.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">

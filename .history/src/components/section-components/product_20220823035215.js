@@ -63,7 +63,7 @@ class Product extends Component {
 			              <a className="fav-btn float-right" href="#"><i className="far fa-heart" /></a>
 			            </div>
 			            <div className="product-meta">
-			              <span className="price">80 BTC</span>
+			              <span className="price">80,650.00</span>
 			              <div className="float-right d-inline-block">
 			                <ul>
 			                  <li><img src={publicUrl+"assets/img/icon/triangle.png"} alt="img" />2</li>
@@ -93,7 +93,7 @@ class Product extends Component {
 			              <a className="fav-btn float-right" href="#"><i className="far fa-heart" /></a>
 			            </div>
 			            <div className="product-meta">
-			              <span className="price"> 80 BTC</span>
+			              <span className="price">$ 80,650.00</span>
 			              <div className="float-right d-inline-block">
 			                <ul>
 			                  <li><img src={publicUrl+"assets/img/icon/triangle.png"} alt="img" />2</li>

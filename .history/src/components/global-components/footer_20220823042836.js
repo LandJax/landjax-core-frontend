@@ -45,10 +45,9 @@ class Footer_v1 extends Component {
 								<div className="widget widget_about">
 									<h4 className="widget-title">Company</h4>
 									<div className="details">
-										<p>Founded in 1976 to provide independent brokerages with a powerful marketing and referral program for luxury listings, 
-											the Landjax was designed to connect the finest independent real estate companies to the most prestigious clientele in the world. LandJax LLC is a subsidiary of Realogy Holdings Corp. (NYSE: RLGY),
-											 a global leader in real estate franchising and provider of real estate brokerage, relocation and Land services.</p>
-										<p><i className="fas fa-map-marker-alt" /> 420 Love Sreet 133/2 Enugu City, Nigeria</p>
+										<p>Founded in 1976 to provide independent brokerages with a powerful marketing and referral program for luxury listings, the Sotheby's International Realty network was designed to connect the finest independent real estate companies to the most prestigious clientele in the world. Sotheby's International Realty Affiliates LLC is a subsidiary of Realogy Holdings Corp. (NYSE: RLGY),
+											 a global leader in real estate franchising and provider of real estate brokerage, relocation and settlement services.</p>
+										<p><i className="fas fa-map-marker-alt" /> 420 Love Sreet 133/2 Mirpur City, Dhaka</p>
 										<p><i className="fas fa-phone-volume" /> +(066) 19 5017 800 628</p>
 										<p><i className="fas fa-envelope" /> info.contact@gmail.com</p>
 									</div>

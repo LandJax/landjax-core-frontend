@@ -73,7 +73,7 @@ class Navbar extends Component {
 			            <Link to="/#">Property</Link>
 			            <ul className="sub-menu">
 			              <li><Link to="/property">Local Market</Link></li>
-			              <li><Link to="/property-grid">Modern market</Link></li>
+			              <li><Link to="/property-grid">Modern Propety</Link></li>
 			              <li><Link to="/property-details">Property Details</Link></li>
 			            </ul>
 			          </li>

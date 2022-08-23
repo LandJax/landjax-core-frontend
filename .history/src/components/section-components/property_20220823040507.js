@@ -30,11 +30,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/5.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -53,7 +53,7 @@ class Property extends Component {
 			                <p>Rare Development Opportunity _ 150+ years Family Heritage 27.5 of 55 contiguous acreage North of Jessup Rd / South of Hubble. 962 feet of Jessup Road frontage & 1488 feet of Hubble Rd frontage. 15 Minutes from downtown Cincinnati. Green Twp & Colerain Twp.</p>
 			              </div>
 			              <div className="product-meta-bottom">
-			                <span className="price"> 22 BTC</span>
+			                <span className="price">$ 80,650.00</span>
 			                <span>For sale</span>
 			                <span>1 year ago</span>
 			              </div>         
@@ -62,11 +62,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/4.jpg" }alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg" }alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/2.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -96,11 +96,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/6.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/3.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -131,11 +131,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/7.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/4.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -166,11 +166,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/8.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/5.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -202,11 +202,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/lands/9.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/images/5.jpg"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/6.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -222,7 +222,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>This 91 acres of land is just a couple miles from the new intel facility, just East of New Albany, and North of state route 62!! Vacant Ground planted to corn.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -238,11 +238,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/1.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/4.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/4.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -258,7 +258,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>ONE OF A KIND, RARE 4 BEDROOM HOME!! Welcome to this completely remodeled 4 Bed 2 bath home including vinyl flooring, throughout kitchen, hall and bathrooms, all stainless steel appliances included and updated lighting. </p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -270,11 +270,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/2.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/5.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -290,7 +290,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>Beautiful Rustic Colorado Mountain Home with lots of Trees You have the opportunity to purchase this Beautiful Rustic Colorado Mountain Home by online auction that is move in ready.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -302,11 +302,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/3.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/6.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/6.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -322,8 +322,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>Mid-century brick ranch home on a large lot! The main floor has attractive and easy to care for vinyl plank flooring.
-								 Stainless steel appliances and abundant counter prep space and cabinets can be found in the kitchen and the updated.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -335,11 +334,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/4.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/1.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/1.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -355,7 +354,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>Location, Location, Location! Enjoy all this Westside home has to offer. The home features 5 bedrooms with Primary en Suite and two bedrooms along with a full bath on the upper level.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -367,11 +366,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/5.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/2.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -387,7 +386,7 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>This very clean, remodeled, well kept home is ready for its new owner. This home has a new roof, stucco exterior and a remodeled interior. This is one of a kind! There is room for four cars to be parked off street and also has central A/C.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
 			                <span className="price">$ 80,650.00</span>
@@ -399,11 +398,11 @@ class Property extends Component {
 			          <div className="col-lg-4 col-md-6">
 			            <div className="single-product-wrap style-bottom">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/property/6.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
 			                <div className="product-wrap-details">
 			                  <div className="media">
 			                    <div className="author">
-			                      <img src={publicUrl+"assets/images/author/author2.jpg"} alt="img" />           
+			                      <img src={publicUrl+"assets/img/author/3.png"} alt="img" />           
 			                    </div>
 			                    <div className="media-body">
 			                      <h6><Link to="/property">Owner Name</Link></h6>
@@ -419,10 +418,10 @@ class Property extends Component {
 			                  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York</li>
 			                  <li><Link to="/property">For Sell</Link></li>
 			                </ul>
-			                <p>CITY OF BOULDER AFFORDABLE HOUSING. Spacious and quiet main level affordable condo in Boulder! Northfield Village offers a convenient location, with quick access to trails, parks and the Diagonal.</p>
+			                <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
 			              </div>
 			              <div className="product-meta-bottom">
-			                <span className="price"> 30 BTC</span>
+			                <span className="price">$ 80,650.00</span>
 			                <span>For sale</span>
 			                <span>1 year ago</span>
 			              </div>         
