@@ -19,8 +19,7 @@ class NavbarV2 extends Component {
 				      </div>
 				      <div className="logo">
 					  <Link to="/">
-					  	<img style={{width: "5rem", height: "5rem"}} src={publicUrl+"assets/images/logo.svg"} alt="img" />
-
+						{/* <img src={publicUrl+"assets/img/logo.png"} alt="img" /> */}
 						{/* <h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4> */}
 						
 					</Link>

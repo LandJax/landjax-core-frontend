@@ -21,7 +21,7 @@ class NavbarV3 extends Component {
 			        <Link to="/">
 						<img style={{width: "5rem", height: "5rem"}} src={publicUrl+"assets/images/logo.svg"} alt="img" />
 
-						{/* <h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4> */}
+						<h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4>
 					</Link>
 			      </div>
 			      <div className="nav-right-part nav-right-part-mobile">
