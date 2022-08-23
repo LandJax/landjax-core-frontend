@@ -22,7 +22,7 @@ class Testimonial extends Component {
 			            <div className="item">
 			              <div className="single-testimonial-inner style-two text-center">
 			                <div className="thumb main-thumb">
-			                  <img src={publicUrl+"assets/images/author/author5.jpg"} alt="img" />
+			                  <img src={publicUrl+"assets/img/testimonial/1.png"} alt="img" />
 			                </div>
 			                <div className="details">
 			                  <h6 className="name">Dr Duralmin Okafor</h6>
@@ -40,11 +40,11 @@ class Testimonial extends Component {
 			            <div className="item">
 			              <div className="single-testimonial-inner style-two text-center">
 			                <div className="thumb main-thumb">
-			                  <img src={publicUrl+"assets/images/author/author4.jpg"} alt="img" />
+			                  <img src={publicUrl+"assets/img/testimonial/4.png"} alt="img" />
 			                </div>
 			                <div className="details">
-			                  <h6 className="name">Sen. Ezigbo Oyoka</h6>
-			                  <p>“Land prices rose at the second-strongest pace of 6% compared to other commercial real estate types. REALTORS® reported that, on average, land prices rose nearly 7% year-over-year during 2021’’ </p>
+			                  <h6 className="name">Sarif Jaya Miprut</h6>
+			                  <p>“consecte Lorem ipsum dolor sit amet, Lorem ipsum dolor amet, consecte Lorem ipsum dolor sit adipisicing amet, consectetur sed do eiusmod tempor incididunt dolore magna consecrem adipisicing ipsum dolor sit amet, consectetur elit,’’ </p>
 			                  <div className="rating-inner">
 			                    <i className="fas fa-star" />
 			                    <i className="fas fa-star" />

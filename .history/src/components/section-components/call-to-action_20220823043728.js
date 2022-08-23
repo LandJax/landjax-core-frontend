@@ -15,7 +15,7 @@ class CallToAction extends Component {
 		        <div className="section-title style-white mb-0">
 		          <h6>Buy Or Sell</h6>
 		          <h2>Submit Property or Land</h2>
-		          <p>Submit a home that will suit your peoples life style lifestyle.</p>
+		          <p>Submit a home that will suit your peop lifestyle.</p>
 		        </div>
 		        <div className="btn-wrap mt-4 pt-3">
 		          <Link className="btn btn-base mr-2" to="/add-property">SUBMIT</Link>

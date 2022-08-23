@@ -22,7 +22,7 @@ class Testimonial extends Component {
 			            <div className="item">
 			              <div className="single-testimonial-inner style-two text-center">
 			                <div className="thumb main-thumb">
-			                  <img src={publicUrl+"assets/images/author/author5.jpg"} alt="img" />
+			                  <img src={publicUrl+"assets/image/author/author4.jpg"} alt="img" />
 			                </div>
 			                <div className="details">
 			                  <h6 className="name">Dr Duralmin Okafor</h6>
@@ -40,7 +40,7 @@ class Testimonial extends Component {
 			            <div className="item">
 			              <div className="single-testimonial-inner style-two text-center">
 			                <div className="thumb main-thumb">
-			                  <img src={publicUrl+"assets/images/author/author4.jpg"} alt="img" />
+			                  <img src={publicUrl+"assets/image/author/author4.jpg"} alt="img" />
 			                </div>
 			                <div className="details">
 			                  <h6 className="name">Sen. Ezigbo Oyoka</h6>

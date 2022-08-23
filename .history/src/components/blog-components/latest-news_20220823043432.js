@@ -40,7 +40,7 @@ class LatestNews extends Component {
 		              <li><i className="fa fa-calendar-alt" />Marce 9 , 2020</li>
 		            </ul>
 		            <h4><Link to="/blog-details">Daily Apartment</Link></h4>
-		            <p>New 32 Acre Land at Ikoyi Estate, one with solid lumen texture</p>
+		            <p>Daily ipsum dolor  consectetur adipisicing elit, sed do eius Lorem ipsum dolo ame conse.</p>
 		            <Link className="btn btn-base read-more" to="/blog-details"><i className="la la-arrow-right" /></Link>
 		          </div>        
 		        </div>
@@ -56,7 +56,7 @@ class LatestNews extends Component {
 		              <li><i className="fa fa-calendar-alt" />Marce 9 , 2020</li>
 		            </ul>
 		            <h4><Link to="/blog-details">Hotel Resort</Link></h4>
-		            <p>New 32 Acre Land at Ikoyi Estate, one with solid lumen texture</p>
+		            <p>Resort ipsum dolor  consectetur adipisicing elit, sed do eius Lorem ipsum dolo ame conse.</p>
 		            <Link className="btn btn-base read-more" to="/blog-details"><i className="la la-arrow-right" /></Link>
 		          </div>        
 		        </div>

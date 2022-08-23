@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Footer_v1 extends Component {
+class Footer_v2 extends Component {
 
 	componentDidMount() {
 		let publicUrl = process.env.PUBLIC_URL + '/'
@@ -15,18 +15,19 @@ class Footer_v1 extends Component {
 	render() {
 
 		let publicUrl = process.env.PUBLIC_URL + '/'
+		let imgattr = "Footer logo"
 
 		return (
-			<footer className="footer-area">
+			<footer className="footer-area style-two mg-top-100 go-top" style={{ background: 'url(' + publicUrl + 'assets/img/other/1.png)' }}>
 				<div className="footer-top">
 					<div className="container">
 						<div className="row">
-							<div className="col-md-4">
+							<div className="col-lg-6 col-md-4">
 							<img style={{width: "5rem", height: "5rem"}} src={publicUrl+"assets/images/logo.svg"} alt="img" />
 
 							{/* <h4 style={{color: "#FFFFFF"}}>LAND<span style={{color: "#5BA600"}}>JAX</span></h4> */}
 							</div>
-							<div className="col-md-8 text-md-right mt-3 mt-md-0">
+							<div className="col-lg-6 col-md-8 text-md-right mt-3 mt-md-0">
 								<ul className="social-area">
 									<li><a href="https://www.facebook.com/solverwp/"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li>
 									<li><a href="https://www.twitter.com/solverwp/"><i className="fab fa-twitter" aria-hidden="true" /></a></li>
@@ -38,68 +39,63 @@ class Footer_v1 extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="footer-middle bg-black">
+				<div className="footer-middle">
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-4 col-md-6">
 								<div className="widget widget_about">
-									<h4 className="widget-title">Company</h4>
+									<h4 className="widget-title">Contact Us</h4>
 									<div className="details">
-										<p>Founded in 1976 to provide independent brokerages with a powerful marketing and referral program for luxury listings, 
-											the Landjax was designed to connect the finest independent real estate companies to the most prestigious clientele in the world. LandJax LLC is a subsidiary of Realogy Holdings Corp. (NYSE: RLGY),
-											 a global leader in real estate franchising and provider of real estate brokerage, relocation and Land services.</p>
-										<p><i className="fas fa-map-marker-alt" /> 420 Love Sreet 133/2 Enugu City, Nigeria</p>
+										<p><i className="fas fa-map-marker-alt" /> 420 Love Sreet 133/2 Okpo City, kaduna state</p>
 										<p><i className="fas fa-phone-volume" /> +(066) 19 5017 800 628</p>
 										<p><i className="fas fa-envelope" /> info.contact@gmail.com</p>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-4 col-md-6">
-								<div className="widget widget_newsfeed">
-									<h4 className="widget-title">News Feed</h4>
-									<ul className="go-top">
-										<li><Link to="/blog"><i className="far fa-user" />By Admin</Link><span><i className="far fa-calendar-alt" />Marce 9 , 2021</span></li>
-										<li><Link to="/blog"><i className="far fa-user" />By Admin</Link><span><i className="far fa-calendar-alt" />Marce 9 , 2020</span></li>
-										<li><Link to="/blog"><i className="far fa-user" />By Admin</Link><span><i className="far fa-calendar-alt" />Marce 11 , 2020</span></li>
-										<li><Link to="/blog"><i className="far fa-user" />By Admin</Link><span><i className="far fa-calendar-alt" />Januray 9 , 2020</span></li>
-										<li><Link to="/blog"><i className="far fa-user" />By Admin</Link><span><i className="far fa-calendar-alt" />Marce 9 , 2020</span></li>
+							<div className="col-lg-2 col-md-6">
+								<div className="widget widget_nav_menu">
+									<h4 className="widget-title">Quick link</h4>
+									<ul>
+										<li><Link to="/about">About Us</Link></li>
+										<li><Link to="/property">Property</Link></li>
+										<li><Link to="/add-property">Add Property</Link></li>
+										<li><Link to="/contact">Contact Us</Link></li>
 									</ul>
 								</div>
 							</div>
-							<div className="col-lg-4 col-md-9">
-								<div className="widget widget_subscribe mb-4">
+							<div className="col-lg-2 col-md-6">
+								<div className="widget widget_nav_menu">
+									<h4 className="widget-title">Categories</h4>
+									<ul>
+										<li><Link to="/blog">Arts &amp; Design</Link></li>
+										<li><Link to="/blog">Business</Link></li>
+										<li><Link to="/blog">Computer Science</Link></li>
+										<li><Link to="/blog">Data Science</Link></li>
+									</ul>
+								</div>
+							</div>
+							<div className="col-lg-4 col-md-6">
+								<div className="widget widget_subscribe">
 									<h4 className="widget-title">Newsletter</h4>
 									<div className="details">
-										<p>Please Submit Email for Newsletter</p>
+										<p>Lorem ipsum dolor sit amet,</p>
 										<div className="footer-subscribe-inner">
 											<input type="text" placeholder="Your Mail" />
 											<a className="btn btn-base" href="#">Subscribe</a>
 										</div>
 									</div>
 								</div>
-								<div className="widget widget-tags pt-2 go-top">
-									<h5 className="widget-title mb-3">House Tags</h5>
-									<div className="tagcloud mt-0">
-										<Link to="/blog">Creative</Link>
-										<Link to="/blog">Development</Link>
-										<Link to="/blog">Beach</Link>
-										<Link to="/blog">Villa</Link>
-										<Link to="/blog">Clean</Link>
-										<Link to="/blog">Seo</Link>
-										<Link to="/blog">Appertment</Link>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="footer-bottom bg-black">
+				<div className="footer-bottom">
 					<div className="container">
 						<div className="row">
-							<div className="col-md-7 align-self-center">
-								<p>©2022, Copy Right By Landjax. All Rights Reserved</p>
+							<div className="col-lg-6 align-self-center">
+								<p>©2022, Copy Right By landjax. All Rights Reserved</p>
 							</div>
-							<div className="col-md-5 text-md-right go-top">
+							<div className="col-lg-6 text-lg-right">
 								<ul>
 									<li>
 										<Link to="/">Home</Link>
@@ -120,9 +116,10 @@ class Footer_v1 extends Component {
 				</div>
 			</footer>
 
+
 		)
 	}
 }
 
 
-export default Footer_v1
+export default Footer_v2
