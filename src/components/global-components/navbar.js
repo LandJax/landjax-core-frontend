@@ -15,9 +15,9 @@ class Navbar extends Component {
 			      <div className="row">
 			        <div className="col-lg-8 text-lg-left text-center">
 			          <ul>
-			            <li><p><img src={publicUrl+"assets/img/icon/location.png"} alt="img" /> 420 Love Sreet 133/2 flx City</p></li>
-			            <li><p><img src={publicUrl+"assets/img/icon/phone.png"} alt="img" /> +(06) 017 800 628</p></li>
-			            <li><p><img src={publicUrl+"assets/img/icon/envelope.png"} alt="img" />  info@landjax.com</p></li>
+			            <li><p><img src={publicUrl+"assets/img/icon/location.png"} alt="img" /> H/153 Golf Estate, phase 2. GRA.</p></li>
+			            <li><p><img src={publicUrl+"assets/img/icon/phone.png"} alt="img" /> +(234) 807 830 1873</p></li>
+			            <li><p><img src={publicUrl+"assets/img/icon/envelope.png"} alt="img" />  landjax@gmail.com</p></li>
 			          </ul>
 			        </div>
 			        <div className="col-lg-4">

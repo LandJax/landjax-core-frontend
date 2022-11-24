@@ -3680,6 +3680,13 @@ ul {
   transition: all 0.4s ease-in;
 }
 
+
+.single-agent-wrap .thumb-image{
+  object-fit: cover;
+  object-position: 10%!important;
+  width: 1000rem;
+}
+
 .single-agent-wrap .details .social-area {
   margin-top: 30px;
 }
