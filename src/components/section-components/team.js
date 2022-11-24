@@ -14,7 +14,7 @@ class Team extends Component {
                 <div className="col-lg-4 col-md-6">
                   <div className="single-agent-wrap style-2 text-center">
                     <div className="thumb">
-                      <img className='thumb-image' src={publicUrl+"assets/images/agents/davidson1.jpg" } alt="img" />
+                      <img className='thumb-image' src={publicUrl+"assets/images/agents/david-cut.png" } alt="img" />
                     </div> 
                     <div className="details">
                       <h4>DAVIDSON C. NKEDIFE</h4>
