@@ -17,7 +17,7 @@ class Navbar extends Component {
 			          <ul>
 			            <li><p><img src={publicUrl+"assets/img/icon/location.png"} alt="img" /> H/153 Golf Estate, phase 2. GRA.</p></li>
 			            <li><p><img src={publicUrl+"assets/img/icon/phone.png"} alt="img" /> +(234) 807 830 1873</p></li>
-			            <li><p><img src={publicUrl+"assets/img/icon/envelope.png"} alt="img" />  landjax@gmail.com</p></li>
+			            <li><p><img src={publicUrl+"assets/img/icon/envelope.png"} alt="img" />  www.Landjax.com@outlook.com</p></li>
 			          </ul>
 			        </div>
 			        <div className="col-lg-4">
