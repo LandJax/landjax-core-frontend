@@ -46,7 +46,8 @@ Version: 1.0.3
 
 /***transition***/
 :root {
-  --main-color: #5ba600;
+  --main-color: #CDF0F2;
+  /* --main-color: #5ba600; */
   --heading-color: #0d1741;
   --paragraph-color: #565872;
   --heading-font: "Rubik", sans-serif;
@@ -486,7 +487,8 @@ object {
 .wp-link-pages .current,
 .wp-link-pages a:hover {
   background-color: var(--main-color);
-  color: #fff;
+  /* color: #fff; */
+  color: #333;
   border-color: var(--main-color);
 }
 
@@ -517,7 +519,8 @@ ul {
   width: 100px;
   height: 50px;
   background-color: var(--main-color);
-  color: #fff;
+  /* color: #fff; */
+  color: #333;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -600,7 +603,8 @@ ul {
 }
 
 .btn-base {
-  color: #fff;
+  color: #333;
+  /* color: #fff; */
   border: 0;
   background: var(--main-color);
 }
@@ -621,7 +625,8 @@ ul {
 
 .btn-base:hover,
 .btn-base:focus {
-  color: #fff;
+  color: #280064;
+  /* color: #fff; */
 }
 
 .btn-base:hover:before,
@@ -743,7 +748,7 @@ ul {
 }
 
 .section-title h6 {
-  color: var(--main-color);
+  color: var(--heading-color);
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0;
@@ -1110,7 +1115,7 @@ ul {
 }
 
 .social-area.style-3 li a {
-  color: #fff;
+  color: #333;
   background: var(--main-color);
   height: 40px;
   width: 40px;
@@ -1299,7 +1304,13 @@ ul {
 }
 
 .bg-main {
+  /* background: rgba(6, 21, 57, 1); */
   background: var(--main-color);
+}
+
+.bg-main .item .thumb img {
+  filter: saturate(3);
+  -webkit-filter: invert(100%);
 }
 
 .bg-gray {
@@ -1773,7 +1784,8 @@ ul {
 }
 
 .nav-right-part ul li a {
-  color: #fff;
+  color: #333;
+  /* color: #fff; */
   font-size: 16px;
 }
 
@@ -2591,7 +2603,7 @@ ul {
 }
 
 .product-search-inner h5 {
-  color: #fff;
+  color: #333;
   margin-bottom: 0;
 }
 
@@ -2619,10 +2631,12 @@ ul {
 }
 
 .single-service-wrap:hover {
-  background: #5ba600;
+  /* background: #5ba600; */
+  background-color: #CDF0F2;
+  /* color: #333; */
 }
 
-.single-service-wrap .thumb:hover ~ .thumb .beam-anim:hover{
+.single-service-wrap .thumb:hover~.thumb .beam-anim:hover {
   animation: .5s ease-in-out beam-anim-fast infinite;
   cursor: pointer;
 }
@@ -2633,7 +2647,8 @@ ul {
 
 .single-service-wrap:hover p,
 .single-service-wrap:hover h4 a {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #333;
 }
 
 .single-service-wrap .thumb {
@@ -2664,44 +2679,44 @@ ul {
   transition: all 0.4s ease-in;
 }
 
-.beam-anim{
+.beam-anim {
   animation: 2s ease-in-out beam-anim-scale infinite;
 }
 
-.beam-anim:hover{
+.beam-anim:hover {
   animation: .9s ease-in-out beam-anim-fast infinite;
   cursor: pointer;
 }
 
 @keyframes beam-anim-fast {
-  0%{
+  0% {
     transform: translateY(1rem);
   }
 
-  50%{
+  50% {
     transform: translateY(0);
 
   }
 
 
-  100%{
+  100% {
     transform: translateY(1rem);
 
   }
 }
 
 @keyframes beam-anim-scale {
-  0%{
+  0% {
     transform: scale(1.05);
   }
 
-  50%{
+  50% {
     transform: translateY(0);
 
   }
 
 
-  100%{
+  100% {
     transform: scale(1.05);
 
   }
@@ -2737,7 +2752,8 @@ ul {
 }
 
 .single-service-wrap.style-2:hover {
-  background-color: #061539 !important;
+  /* background-color: #061539 !important;
+  color: #fff !important; */
 }
 
 .single-service-wrap.style-2 .thumb {
@@ -2765,7 +2781,7 @@ ul {
 
 .single-service-wrap.style-2 .single-service-details p,
 .single-service-wrap.style-2 .single-service-details h4 {
-  color: #fff;
+  color: #333;
 }
 
 .single-service-wrap.style-2.small-padding {
@@ -2785,6 +2801,11 @@ ul {
 
 .single-product-wrap:hover .thumb img {
   transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.about-icon {
+  filter: saturate(3);
+  -webkit-filter: invert(100%);
 }
 
 .single-product-wrap .thumb {
@@ -2829,7 +2850,8 @@ ul {
   height: 50px;
   line-height: 50px;
   background: var(--main-color);
-  color: #ffffff;
+  color: #fff;
+  /* color: #ffffff; */
   font-size: 16px;
   font-weight: 500;
   padding: 0 62px;
@@ -3050,7 +3072,7 @@ ul {
   font-size: 12px;
   font-weight: 600;
   display: inline-block;
-  color: #fff;
+  color: #333;
 }
 
 .single-product-wrap .product-details-inner .meta-inner li:last-child {
@@ -3112,7 +3134,7 @@ ul {
   width: 35px;
   line-height: 38px;
   text-align: center;
-  color: #fff;
+  color: #333;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -3142,7 +3164,8 @@ ul {
 }
 
 .single-product-wrap.style-2 .product-details-inner .price {
-  color: var(--main-color);
+  /* color: var(--main-color); */
+  color: #333;
   font-size: 16px;
   font-weight: 500;
 }
@@ -3476,7 +3499,8 @@ ul {
 
 .video-area .section-title .play-btn {
   border-radius: 50%;
-  background: #f7f7f7;
+  background: #333;
+  /* background: #f7f7f7; */
   width: 123px;
   height: 123px;
   display: inline-block;
@@ -3527,7 +3551,7 @@ ul {
 
 .mgd-tab-inner .nav-tabs .nav-link.active {
   background: var(--main-color);
-  color: #fff;
+  color: #333;
 }
 
 .mgd-tab-inner.style-2 .nav-tabs {
@@ -3676,15 +3700,15 @@ ul {
 .single-agent-wrap .details h6 {
   font-size: 18px;
   font-weight: 400;
-  color: var(--main-color);
+  color: #333;
   transition: all 0.4s ease-in;
 }
 
 
-.single-agent-wrap .thumb-image{
+.single-agent-wrap .thumb-image {
   object-fit: cover;
-  object-position: center!important;
-  width: 1000rem;
+  object-position: center !important;
+  width: 100%;
 }
 
 .single-agent-wrap .details .social-area {
@@ -3716,7 +3740,7 @@ ul {
 }
 
 .single-agent-wrap.style-2 .thumb {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .single-agent-wrap.style-2 .thumb img {
@@ -3764,11 +3788,11 @@ ul {
 }
 
 .single-agent-wrap:hover .details h4 {
-  color: #fff;
+  color: #333;
 }
 
 .single-agent-wrap:hover .details h6 {
-  color: #fff;
+  color: #333;
 }
 
 .single-agent-wrap:hover .social-area.style-2 li a {
@@ -3990,7 +4014,7 @@ ul {
 }
 
 .single-blog-inner.style-quote .details .meta-inner li {
-  color: #fff;
+  color: #333;
 }
 
 .single-blog-inner.style-quote .details .meta-inner li i,
@@ -4384,7 +4408,7 @@ ul {
 
 .widget-tags .tagcloud a:hover {
   background: var(--main-color);
-  color: #ffffff;
+  color: #777;
   border: 1px solid var(--main-color);
 }
 
@@ -4423,7 +4447,8 @@ ul {
   border: 0 !important;
   border-radius: 50%;
   background: var(--main-color);
-  color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  /* color: rgba(255, 255, 255, 0.7); */
   position: absolute;
   right: 9px;
   top: 9px;
@@ -4687,7 +4712,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: #fff;
+  color: #333;
   float: right;
 }
 

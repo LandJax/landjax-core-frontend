@@ -11,7 +11,7 @@ import Footer from './global-components/footer-v2';
 
 const AboutPage = () => {
     return <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <PageHeader headertitle="About Us"  />
         <About />
         <Counter />
@@ -19,7 +19,7 @@ const AboutPage = () => {
         <AgentV3 />
         <Testimonial />
         <MoreInfo />
-        <Footer />
+        {/* <Footer /> */}
     </div>
 }
 

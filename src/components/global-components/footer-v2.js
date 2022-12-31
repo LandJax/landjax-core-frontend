@@ -15,7 +15,7 @@ class Footer_v2 extends Component {
 	render() {
 
 		let publicUrl = process.env.PUBLIC_URL + '/'
-		let imgattr = "Footer logo"
+		// let imgattr = "Footer logo"
 
 		return (
 			<footer className="footer-area style-two mg-top-100 go-top" style={{ background: 'url(' + publicUrl + 'assets/images/3.png)' }}>

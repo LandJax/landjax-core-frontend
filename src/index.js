@@ -15,6 +15,9 @@ import AddProperty from './components/add-property';
 import Contact from './components/contact';
 import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
+import Navbar from './components/global-components/navbar';
+import Footer_v1 from './components/global-components/footer';
+import Footer from './components/global-components/footer';
 
 
 
@@ -23,11 +26,12 @@ class Root extends Component {
     render() {
         return(
                 <HashRouter basename="/">
+                    <Navbar />
 	                <div>
 	                <Switch>
                         <Route exact path="/" component={HomeV1} />
-                        <Route  path="/home-v2" component={HomeV2} />
-                        <Route  path="/home-v3" component={HomeV3} />
+                        {/* <Route  path="/home-v2" component={HomeV2} />
+                        <Route  path="/home-v3" component={HomeV3} /> */}
                         <Route  path="/property-details" component={ProptertyDetails} />
                         <Route  path="/property-grid" component={ProptertyGrid} />
                         <Route  path="/property" component={Propterty} />
@@ -41,6 +45,7 @@ class Root extends Component {
 	                    <Route  path="/blog-details" component={BlogDetails} />
 	                </Switch>
 	                </div>
+                   <Footer/>
                 </HashRouter>
         )
     }
