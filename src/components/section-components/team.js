@@ -186,13 +186,13 @@ return(
                       <img src={publicUrl+"assets/images/agents/joe.jpeg"} alt="img" />
                     </div> 
                     <div className="details">
-                      <h4>FRANK NORBERT MBA</h4>
+                      <h4>AKPAN JOSEPH</h4>
                       <h6>BLOCKCHAIN ENGINEER</h6>
                       <ul className="social-area style-2">
-                        <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li>
-                        <li><a href="#"><i className="fab fa-linkedin-in" aria-hidden="true" /></a></li>
-                        <li><a href="#"><i className="fab fa-instagram" aria-hidden="true" /></a></li>
-                        <li><a href="#"><i className="fab fa-twitter" aria-hidden="true" /></a></li>
+                        {/* <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li> */}
+                        <li><a href="https://www.linkedin.com/in/syntaxdesigner/"><i className="fab fa-linkedin-in" aria-hidden="true" /></a></li>
+                        {/* <li><a href="#"><i className="fab fa-instagram" aria-hidden="true" /></a></li> */}
+                        <li><a href="https://www.twitter.com/syntaxdesigner"><i className="fab fa-twitter" aria-hidden="true" /></a></li>
                       </ul>
                     </div>        
                   </div>
@@ -204,7 +204,7 @@ return(
                       <img src={publicUrl+"assets/images/agents/precious.jpeg"} alt="img" />
                     </div> 
                     <div className="details">
-                      <h4>NKWUA PRECIOUS C. Noel</h4>
+                      <h4>NKWUA PRECIOUS C. NOEL</h4>
                       <h6>AR/VR Engineer</h6>
                       <ul className="social-area style-2">
                         <li><a href="https://www.facebook.com/nkwua.precious?mibextid=ZbWKwL"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li>
