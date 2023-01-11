@@ -1,7 +1,11 @@
 import React from 'react';
+import agent7 from '../../assest/img/agent/7.png'
+import agent8 from '../../assest/img/agent/8.png'
+import agent9 from '../../assest/img/agent/9.png'
+import agent10 from '../../assest/img/agent/10.png'
 
 const AgentV4 = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
+
   return(
     <div className="agent-area bg-black pd-top-118 pd-bottom-90">
               <div className="container">
@@ -13,7 +17,7 @@ const AgentV4 = () => {
                   <div className="col-lg-3 col-sm-6">
                     <div className="single-agent-wrap style-2 text-center">
                       <div className="thumb">
-                        <img src={publicUrl+"assets/img/agent/7.png"} alt="img" />
+                        <img src={agent7} alt="img" />
                       </div> 
                       <div className="details">
                         <h4>Sandara Mrikon</h4>
@@ -30,7 +34,7 @@ const AgentV4 = () => {
                   <div className="col-lg-3 col-sm-6">
                     <div className="single-agent-wrap style-2 text-center">
                       <div className="thumb">
-                        <img src={publicUrl+"assets/img/agent/8.png"} alt="img" />
+                        <img src={agent8} alt="img" />
                       </div> 
                       <div className="details">
                         <h4>Sarif Miprut</h4>
@@ -47,7 +51,7 @@ const AgentV4 = () => {
                   <div className="col-lg-3 col-sm-6">
                     <div className="single-agent-wrap style-2 text-center">
                       <div className="thumb">
-                        <img src={publicUrl+"assets/img/agent/9.png"} alt="img" />
+                        <img src={agent9} alt="img" />
                       </div> 
                       <div className="details">
                         <h4>Jordan Smith</h4>
@@ -64,7 +68,7 @@ const AgentV4 = () => {
                   <div className="col-lg-3 col-sm-6">
                     <div className="single-agent-wrap style-2 text-center">
                       <div className="thumb">
-                        <img src={publicUrl+"assets/img/agent/10.png"} alt="img" />
+                        <img src={agent10} alt="img" />
                       </div> 
                       <div className="details">
                         <h4>Jaya Sarif</h4>

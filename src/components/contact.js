@@ -6,10 +6,10 @@ import Footer from './global-components/footer-v2';
 
 const ContactPage = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <PageHeader headertitle="Contact"  />
         <ContactForm />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 

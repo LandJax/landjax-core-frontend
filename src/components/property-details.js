@@ -6,10 +6,10 @@ import Footer from './global-components/footer';
 
 const PropertyDetails = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <PageHeader headertitle="Property Details"  />
         <PropertyDetailsPage />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 

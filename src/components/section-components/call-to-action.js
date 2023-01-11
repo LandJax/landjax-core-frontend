@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import bg from '../../assest/images/3.png'
 
 const CallToAction = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
-		<div className="cta-area bg-overlay pd-top-118 go-top pd-bottom-120 text-center" style={{background: 'url('+publicUrl+'assets/images/3.png)'}}>
+		<div className="cta-area bg-overlay pd-top-118 go-top pd-bottom-120 text-center" style={{background: `url(${bg})`}}>
 		  <div className="container">
 		    <div className="row justify-content-center">
 		      <div className="col-xl-8 col-lg-10">

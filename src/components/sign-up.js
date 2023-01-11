@@ -6,10 +6,10 @@ import Footer from './global-components/footer-v2';
 
 const SignUpPage = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <PageHeader headertitle="Sign Up"  />
         <SignIn />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 

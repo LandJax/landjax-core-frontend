@@ -1,9 +1,22 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+import location from "../../assest/img/icon/location2.png"
+import icon1 from "../../assest/img/icon/1.png"
+import icon2 from "../../assest/img/icon/2.png"
+import icon3 from "../../assest/img/icon/3.png"
+import icon9 from "../../assest/img/icon/9.png"
+import landy from "../../assest/images/property/lands/landy.jpg"
+import author6 from "../../assest/images/author/author6.jpg"
+import author7 from "../../assest/images/author/author7.jpg"
+import author8 from "../../assest/images/author/author8.jpg"
+import author3 from "../../assest/images/author/author3.jpg"
+import stat from "../../assest/images/statistics/1.jpg"
+import blog1 from "../../assest/images/blogs/blog1.jpg"
+import blog2 from "../../assest/images/blogs/blog2.jpg"
+import blog3 from "../../assest/images/blogs/blog3.jpg"
+import video from "../../assest/images/video/1.jpg"
 
 const PropertyDetails = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
 
 	useEffect(()=>{
 		const $ = window.$;
@@ -19,7 +32,7 @@ const PropertyDetails = () => {
 			        <div className="row">
 			          <div className="col-lg-7">
 			            <h3>Spacious Luxury</h3>
-			            <p><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> Enugu 261, Sam Road, Right Side real estate </p>
+			            <p><img src={location} alt="img" /> Enugu 261, Sam Road, Right Side real estate </p>
 			            <ul>
 			              <li>3 Bedroom</li>
 			              <li>Bathroom</li>
@@ -34,9 +47,9 @@ const PropertyDetails = () => {
 			              <a className="btn btn-blue btn-sm" href="#">RENT</a>
 			            </div>
 			            <ul>
-			              <li><img src={publicUrl+"assets/img/icon/1.png"} alt="img" />Marce 9 , 2020</li>
-			              <li><img src={publicUrl+"assets/img/icon/2.png"} alt="img" />4263</li>
-			              <li><img src={publicUrl+"assets/img/icon/3.png"} alt="img" />68</li>
+			              <li><img src={icon1} alt="img" />Marce 9 , 2020</li>
+			              <li><img src={icon2} alt="img" />4263</li>
+			              <li><img src={icon3} alt="img" />68</li>
 			            </ul>
 			          </div>
 			        </div>
@@ -44,42 +57,42 @@ const PropertyDetails = () => {
 			      <div className="product-thumbnail-wrapper">
 			        <div className="single-thumbnail-slider">
 			          <div className="slider-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			          <div className="slider-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			          <div className="slider-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			          <div className="slider-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			          <div className="slider-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			        </div>
 			        <div className="product-thumbnail-carousel">
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-thumbnail-item">
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+					  <img src={landy} alt="img" />
 			          </div>
 			        </div>
 			      </div>
@@ -178,12 +191,12 @@ const PropertyDetails = () => {
 			            <div className="row">
 			              <div className="col-sm-6">
 			                <a href="PDFLINK" download>
-			                  <img src={publicUrl+"assets/img/icon/9.png"} alt="img" />
+			                  <img src={icon9} alt="img" />
 			                </a>
 			              </div>
 			              <div className="col-sm-6 mt-2 mt-sm-0">
 			                <a href="PDFLINK" download>
-			                  <img src={publicUrl+"assets/img/icon/9.png"} alt="img" />
+			                  <img src={icon9} alt="img" />
 			                </a>
 			              </div>
 			            </div>
@@ -196,11 +209,11 @@ const PropertyDetails = () => {
 			          </div>
 			          <div className="single-property-grid">
 			            <h4>Floor Plans</h4>
-			            <img src={publicUrl+"assets/images/property/lands/landy.jpg"} alt="img" />
+			            <img src={landy} alt="img" />
 			          </div>
 			          <div className="single-property-grid">
 			            <h4>Intro Video</h4>
-			            <div className="property-video text-center" style={{background: 'url('+publicUrl+'assets/images/video/1.jpg)'}}>
+			            <div className="property-video text-center" style={{background: `url(${video})`}}>
 			              <a className="play-btn" href="https://www.youtube.com/embed/Wimkqo8gDZ0" data-effect="mfp-zoom-in"><i className="fa fa-play" aria-hidden="true" /></a>
 			            </div>
 			          </div>
@@ -209,7 +222,7 @@ const PropertyDetails = () => {
 			            <div className="media single-review-inner">
 			              <div className="media-left">
 			                <div className="thumb">
-			                  <img src={publicUrl+"assets/images/author/author6.jpg"} alt="img" />
+			                  <img src={author6} alt="img" />
 			                </div>
 			              </div>
 			              <div className="media-body align-self-center">
@@ -234,7 +247,7 @@ const PropertyDetails = () => {
 			            <div className="media single-review-inner">
 			              <div className="media-left">
 			                <div className="thumb">
-			                  <img src={publicUrl+"assets/images/author/author7.jpg"} alt="img" />
+			                  <img src={author7} alt="img" />
 			                </div>
 			              </div>
 			              <div className="media-body align-self-center">
@@ -259,7 +272,7 @@ const PropertyDetails = () => {
 			            <div className="media single-review-inner">
 			              <div className="media-left">
 			                <div className="thumb">
-			                  <img src={publicUrl+"assets/images/author/author8.jpg"} alt="img" />
+			                  <img src={author8} alt="img" />
 			                </div>
 			              </div>
 			              <div className="media-body align-self-center">
@@ -284,7 +297,7 @@ const PropertyDetails = () => {
 			          </div>
 			          <div className="single-property-grid">
 			            <h4>Page statistics</h4>
-			            <img src={publicUrl+"assets/images/statistics/1.jpg"} alt="img" />
+			            <img src={stat} alt="img" />
 			          </div>
 			          <form className="single-property-comment-form">
 			            <div className="single-property-grid bg-black">
@@ -336,7 +349,7 @@ const PropertyDetails = () => {
 			          <div className="widget widget-author text-center">
 			            <h4 className="widget-title">About Me</h4>
 			            <div className="thumb">
-			              <img src={publicUrl+"assets/images/author/author3.jpg"} alt="img" />
+			              <img src={author3} alt="img" />
 			            </div> 
 			            <div className="details">
 			              <h5>Juliet Okafor</h5>
@@ -373,7 +386,7 @@ const PropertyDetails = () => {
 			            <h5 className="widget-title">Popular Feeds</h5>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/blogs/blog1.jpg"} alt="img" />
+			                <img src={blog1} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">Dolor eorem ipsum sit amet Lorem ipsum</Link></h6>
@@ -382,7 +395,7 @@ const PropertyDetails = () => {
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/blogs/blog2.jpg"} alt="img" />
+			                <img src={blog2} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">Responsive Web And Desktop Develope</Link></h6>
@@ -391,7 +404,7 @@ const PropertyDetails = () => {
 			            </div>
 			            <div className="single-news-wrap media">
 			              <div className="thumb">
-			                <img src={publicUrl+"assets/images/blogs/blog3.jpg"} alt="img" />
+			                <img src={blog3} alt="img" />
 			              </div>
 			              <div className="media-body align-self-center">
 			                <h6><Link to="/blog-details">Admin Web is Django Highlig Models</Link></h6>

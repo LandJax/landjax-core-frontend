@@ -1,7 +1,8 @@
 import React from 'react';
+import agent1 from '../../assest/images/agents/agent1.jpg'
 
 const AgentV3 = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
+
   return(
 <div className="agent-area text-center pd-top-118 pd-bottom-90">
               <div className="container">
@@ -13,7 +14,7 @@ const AgentV3 = () => {
                   <div className="col-lg-3 col-sm-6">
                     <div className="single-agent-wrap style-2 text-center">
                       <div className="thumb">
-                        <img src={publicUrl+"assets/images/agents/agent1.jpg"} alt="img" />
+                        <img src={agent1} alt="img" />
                       </div> 
                       <div className="details">
                         <h4>Chinyere Ofoma</h4>

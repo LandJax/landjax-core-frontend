@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cat1 from'../../assest/img/product/cat-1.png'
+import cat2 from'../../assest/img/product/cat-2.png'
+import cat3 from'../../assest/img/product/cat-3.png'
+import cat5 from'../../assest/img/product/cat-5.png'
 
 const ProductCategoriesV2 = () =>{
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
 <div className="categores-area bg-gray pd-top-118 pd-bottom-90">
 			  <div className="container">
@@ -14,7 +18,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-1.png"} alt="img" />
+			            <img src={cat1} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Orchard</Link></h4>
@@ -26,7 +30,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-2.png"} alt="img" />
+			            <img src={cat2} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Rose Cottage</Link></h4>
@@ -38,7 +42,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-3.png"} alt="img" />
+			            <img src={cat3} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Ong Barn</Link></h4>
@@ -50,7 +54,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-5.png"} alt="img" />
+			            <img src={cat5} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Family House</Link></h4>
@@ -62,7 +66,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-3.png"} alt="img" />
+			            <img src={cat3} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Ong Barn</Link></h4>
@@ -74,7 +78,7 @@ const ProductCategoriesV2 = () =>{
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-5.png"} alt="img" />
+			            <img src={cat5} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property">Family House</Link></h4>
