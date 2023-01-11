@@ -6,10 +6,10 @@ import Footer from './global-components/footer-v2';
 
 const AddPropertyPage = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <PageHeader headertitle="Add Property"  />
         <AddProperty />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 

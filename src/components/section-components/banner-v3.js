@@ -1,9 +1,10 @@
 import React from 'react';
-
+import banner from '../../assest/img/banner/3.png'
+import location from '../../assest/img/icon/location.png'
 
 const BannerV3 = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
-	return(<div className="banner-area banner-area-3 banner-area-bg" style={{background: 'url('+publicUrl+'assets/img/banner/3.png)'}}>
+	// let publicUrl = process.env.PUBLIC_URL+'/'
+	return(<div className="banner-area banner-area-3 banner-area-bg" style={{background: `url(${banner})`}}>
 	<div className="main-search-area">
 	  <div className="container">
 		<form className="main-search-inner">
@@ -62,7 +63,7 @@ const BannerV3 = () => {
 		  </div>
 		  <div className="banner-meta-inner">
 			<h4>Mordan Appertment In <br /> The City Center</h4>
-			<img src={publicUrl+"assets/img/icon/location.png"} alt="img" />
+			<img src={location} alt="img" />
 			<span>420 Love Sreet 133/2 Mirpur City, Dhaka</span>
 			<div className="btn btn-blue">$ 80,650.00</div>
 		  </div>
@@ -81,7 +82,7 @@ const BannerV3 = () => {
 		  </div>
 		  <div className="banner-meta-inner">
 			<h4>Mordan Appertment In <br /> The City Center</h4>
-			<img src={publicUrl+"assets/img/icon/location.png"} alt="img" />
+			<img src={location} alt="img" />
 			<span>420 Love Sreet 133/2 Mirpur City, Dhaka</span>
 			<div className="btn btn-blue">$ 80,650.00</div>
 		  </div>
@@ -100,7 +101,7 @@ const BannerV3 = () => {
 		  </div>
 		  <div className="banner-meta-inner">
 			<h4>Mordan Appertment In <br /> The City Center</h4>
-			<img src={publicUrl+"assets/img/icon/location.png"} alt="img" />
+			<img src={location} alt="img" />
 			<span>420 Love Sreet 133/2 Mirpur City, Dhaka</span>
 			<div className="btn btn-blue">$ 80,650.00</div>
 		  </div>

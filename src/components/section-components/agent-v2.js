@@ -1,8 +1,9 @@
 import React from 'react';
-
+import thumb4 from '../../assest/img/agent/4.png'
+import thumb5 from '../../assest/img/agent/5.png'
+import thumb6 from '../../assest/img/agent/6.png'
 
 const AgentV2 = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
   return (
     <div className="agent-area text-center pd-top-118 pd-bottom-90">
             <div className="container">
@@ -14,7 +15,7 @@ const AgentV2 = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="single-agent-wrap style-3">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/agent/4.png"} alt="img" />
+                      <img src={thumb4} alt="img" />
                     </div> 
                     <div className="details">
                       <a className="phone-inner" href="#"><i className="fa fa-phone" /></a>
@@ -32,7 +33,7 @@ const AgentV2 = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="single-agent-wrap style-3">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/agent/5.png"} alt="img" />
+                      <img src={thumb5} alt="img" />
                     </div> 
                     <div className="details">
                       <a className="phone-inner" href="#"><i className="fa fa-phone" /></a>
@@ -50,7 +51,7 @@ const AgentV2 = () => {
                 <div className="col-lg-4 col-md-6">
                   <div className="single-agent-wrap style-3">
                     <div className="thumb">
-                      <img src={publicUrl+"assets/img/agent/6.png"} alt="img" />
+                      <img src={thumb6} alt="img" />
                     </div> 
                     <div className="details">
                       <a className="phone-inner" href="#"><i className="fa fa-phone" /></a>

@@ -6,10 +6,10 @@ import Footer from './global-components/footer-v2';
 
 const BlogDetailsPage = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <PageHeader headertitle="Blog Details"  />
         <BlogDetails />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 

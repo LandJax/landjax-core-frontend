@@ -117,8 +117,8 @@ const Footer = () => {
 			</footer>
 	)
 }
-// class Footer_v1 extends Component {
 
+// class Footer_v1 extends Component {
 // 	componentDidMount() {
 // 		let publicUrl = process.env.PUBLIC_URL + '/'
 // 		const minscript = document.createElement("script");

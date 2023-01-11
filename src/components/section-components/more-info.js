@@ -1,7 +1,8 @@
 import React from 'react';
+import property from'../../assest/images/property/1.jpg'
 
 const MoreInfo = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
 		<div className="blog-area pd-top-118">
 			  <div className="container">
@@ -13,7 +14,7 @@ const MoreInfo = () => {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="single-product-wrap style-2">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/property/1.jpg"} alt="img" />
+			            <img src={property} alt="img" />
 			          </div> 
 			          <div className="product-details-inner">
 			            <h4>Enugu Office</h4>

@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cat1 from'../../assest/img/product/cat-1.png'
+import cat2 from'../../assest/img/product/cat-2.png'
+import cat3 from'../../assest/img/product/cat-3.png'
+import cat5 from'../../assest/img/product/cat-5.png'
 
 const ProductCategories = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
 <div className="categores-area bg-gray pd-top-118 pd-bottom-90 go-top">
 			  <div className="container">
@@ -14,7 +18,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-1.png" }alt="img" />
+			            <img src={cat1 }alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Orchard</Link></h4>
@@ -25,7 +29,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-2.png"} alt="img" />
+			            <img src={cat2} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Rose Cottage</Link></h4>
@@ -36,7 +40,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-3.png"} alt="img" />
+			            <img src={cat3} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Ong Barn</Link></h4>
@@ -47,7 +51,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-5.png"} alt="img" />
+			            <img src={cat5} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Family House</Link></h4>
@@ -58,7 +62,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-3.png"} alt="img" />
+			            <img src={cat3} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Ong Barn</Link></h4>
@@ -69,7 +73,7 @@ const ProductCategories = () => {
 			      <div className="col-lg-4 col-sm-6">
 			        <div className="single-category-product-wrap style-two text-center">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/img/product/cat-5.png"} alt="img" />
+			            <img src={cat5} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Family House</Link></h4>

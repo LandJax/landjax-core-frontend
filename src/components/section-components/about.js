@@ -1,6 +1,5 @@
 import React from 'react';
-
-let publicUrl = process.env.PUBLIC_URL+'/'
+import agent2 from '../../assest/images/agents/agent2.jpg'
 
 const About = () => {
   return(
@@ -9,7 +8,7 @@ const About = () => {
                 <div className="single-about-inner about-line-right bg-white">
                   <div className="row no-gutter">
                     <div className="col-lg-4 order-lg-12">
-                      <div className="thumb" style={{background: 'url('+publicUrl+'assets/images/agents/agent2.jpg)'}} />
+                      <div className="thumb" style={{background: `url(${agent2})`}} />
                     </div>
                     <div className="col-lg-8 order-lg-1">
                       <div className="details">
