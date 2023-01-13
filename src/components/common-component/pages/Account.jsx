@@ -1,19 +1,20 @@
 import React from 'react'
-import DashboardPages from '../common-component/pages/DashboardPages'
-import { AccountFormWrapper, DashboardWrapper, SnapshotWrapper } from './style'
-import DashboardSidebar from '../common-component/sidebar/Sidebar'
 import { Col, Row } from 'reactstrap'
-import CustomField from '../UI/CustomField'
+ import CustomField from '../../UI/CustomField'
 import { FaCamera, FaVideo } from 'react-icons/fa'
-import Custombutton from '../UI/Custombutton'
-import { color } from '../data/colors'
+import Custombutton from '../../UI/Custombutton'
+import { color } from '../../data/colors'
+import { AccountFormWrapper, DashboardWrapper, SnapshotWrapper } from './pagestyle'
+import DashboardPages from '../../Dashboard/DashboardPages'
+import DashboardSidebar from '../sidebar/Sidebar'
 
 const Account = () => {
   return (
     <DashboardWrapper>
       <DashboardSidebar/>
        <DashboardPages>
-       <SnapshotWrapper>
+        <div style={{height:'100vh'}}>
+        <SnapshotWrapper>
           <div>
             <FaVideo/>
           </div>
@@ -61,7 +62,7 @@ const Account = () => {
        <div className='savebtn'>  
   <Custombutton text='Save Changes' color={color.placeholder} fontSize='18px' bg={color.secondaryColor}/>
       </div>
-      
+        </div>
        </DashboardPages>
     </DashboardWrapper>
    

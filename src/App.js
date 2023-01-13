@@ -12,16 +12,12 @@ import AddProperty from './components/add-property';
 import Contact from './components/contact';
 import Blog from './components/blog';
 import BlogDetails from './components/blog-details';
-import Dashboard from './components/Dashboard/Dashboard';
-import DashboardSidebar from './components/common-component/sidebar/Sidebar';
-import Account from './components/Dashboard/Account';
-import { DashboardWrapper } from './components/Dashboard/style';
-import DashboardPages from './components/common-component/pages/DashboardPages';
-import Activities from './components/Dashboard/Activities';
-import Inventory from './components/Dashboard/Inventory';
-import Overview from './components/Dashboard/Overview';
 import Notfound from './components/Notfound';
-import PrivateRoute from './components/auth/PrivateRoute';
+import Account from './components/common-component/pages/Account';
+import Activities from './components/common-component/pages/Activities';
+import Inventory from './components/common-component/pages/Inventory';
+import Overview from './components/common-component/pages/Overview';
+
 
 const App = () => {
   return (
@@ -44,20 +40,7 @@ const App = () => {
                         <Route  path="/inventory" component={Inventory} />
                         <Route  path="/overview" component={Overview} />
                       <Route path="*"><Notfound /></Route>
-                        {/* <Route  path="/account" component={Dashboard} /> */}
 	                </Switch>
-
-                    {/* <DashboardWrapper>
-                        <DashboardSidebar/>
-                        <DashboardPages>
-                        <Switch>
-                        <Route  path="/dashboard" component={Account} />
-                        <Route  path="/activities" component={Activities} />
-                        <Route  path="/inventory" component={Inventory} />
-                        <Route  path="/overview" component={Overview} />
-                        </Switch>
-                        </DashboardPages>
-                    </DashboardWrapper> */}
                 </Router>
   )
 }

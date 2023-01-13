@@ -11,9 +11,7 @@ import { FaRegTimesCircle } from 'react-icons/fa'
 
 const DashboardSidebar = () => {
     
-
     const {activeMenu,screenSize,setActiveMenu,setScreensize} = useAppContext()
-    console.log(activeMenu,screenSize)
 
     const handleCloseSideBar = () => {
       if(activeMenu && screenSize <=900){
