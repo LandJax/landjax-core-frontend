@@ -1,8 +1,8 @@
 import React from 'react';
+import upload from '../../assest/img/icon/upload.png'
 
 
 const AddProperty = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
   return(
 <div className="add-property-area pd-top-120">
               <div className="container">
@@ -50,7 +50,7 @@ const AddProperty = () => {
                       </div>
                       <div className="col-12">
                         <div className="avatar-upload-input text-center">
-                          <img src={publicUrl+"assets/img/icon/upload.png"} alt="img" />
+                          <img src={upload} alt="img" />
                           <h2>Upload your photo</h2>
                           <p>Its must be a clean photo</p>
                           <div className="avatar-edit-input">

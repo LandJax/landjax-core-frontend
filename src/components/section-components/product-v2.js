@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import img6 from'../../assest/images/6.jpg'
+import img9 from'../../assest/images/9.jpg'
+import img27 from'../../assest/images/27.png'
 
 const ProductV2 = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 return(
 <div className="product-area pd-top-118 pd-bottom-90 go-top">
 			  <div className="container">
@@ -14,7 +17,7 @@ return(
 			      <div className="col-lg-4 col-md-6">
 			        <div className="single-category-product-wrap">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/6.jpg"} alt="img" />
+			            <img src={img6} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Orchard</Link></h4>
@@ -25,7 +28,7 @@ return(
 			      <div className="col-lg-4 col-md-6">
 			        <div className="single-category-product-wrap">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/6.jpg"} alt="img" />
+			            <img src={img6} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Nike Cottage</Link></h4>
@@ -36,7 +39,7 @@ return(
 			      <div className="col-lg-4 col-md-6">
 			        <div className="single-category-product-wrap">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/6.jpg"} alt="img" />
+			            <img src={img6} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Achara Barn</Link></h4>
@@ -47,7 +50,7 @@ return(
 			      <div className="col-lg-4 col-md-6 order-lg-12">
 			        <div className="single-category-product-wrap">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/9.jpg"} alt="img" />
+			            <img src={img9} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Family House</Link></h4>
@@ -58,7 +61,7 @@ return(
 			      <div className="col-lg-8 order-lg-1">
 			        <div className="single-category-product-wrap">
 			          <div className="thumb">
-			            <img src={publicUrl+"assets/images/27.png"} alt="img" />
+			            <img src={img27} alt="img" />
 			          </div>
 			          <div className="single-category-product-details">
 			            <h4><Link to="/property-details">Square Kilometers</Link></h4>

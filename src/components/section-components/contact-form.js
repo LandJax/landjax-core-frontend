@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
+import location from '../../assest/img/icon/location2.png'
 
 const ContactForm = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
+  // let publicUrl = process.env.PUBLIC_URL+'/'
   useEffect(()=>{
     const $ = window.$;
 
@@ -25,9 +26,9 @@ const ContactForm = () => {
                           <div className="contact-single-list">
                             <h5>Enugu Office</h5>
                             <ul>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> Okpara Avenue, Enugu Nigeria</li>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
+                              <li><img src={location} alt="img" /> Okpara Avenue, Enugu Nigeria</li>
+                              <li><img src={location} alt="img" /> +(066) 19 5017 800 628</li>
+                              <li><img src={location} alt="img" /> +(066) 19 5017 800 628</li>
                             </ul>
                           </div>
                         </div>
@@ -35,9 +36,9 @@ const ContactForm = () => {
                           <div className="contact-single-list">
                             <h5>Abuja Office</h5>
                             <ul>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
-                              <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" /> +(066) 19 5017 800 628</li>
+                              <li><img src={location} alt="img" /> +(066) 19 5017 800 628</li>
+                              <li><img src={location} alt="img" /> +(066) 19 5017 800 628</li>
+                              <li><img src={location} alt="img" /> +(066) 19 5017 800 628</li>
                             </ul>
                           </div>
                         </div>

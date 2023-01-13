@@ -1,8 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import project2 from "../../assest/img/project/2.png"
+import location from "../../assest/img/icon/location2.png"
+import project8 from "../../assest/img/project/8.png"
+import project5 from "../../assest/img/project/5.png"
+import project3 from "../../assest/img/project/3.png"
+import project1 from "../../assest/img/project/1.png"
 
 const PropertyFilter = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(<div className="propartes-area pd-top-118 pd-bottom-90">
 	<div className="container">
 	  <div className="section-title text-center">
@@ -31,7 +37,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
+				  <img src={project2} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -56,7 +62,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png" }alt="img" />New York real estate</li>
+					<li><img src={location}alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -70,7 +76,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/8.png"} alt="img" />
+				  <img src={project8} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -95,7 +101,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -109,7 +115,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
+				  <img src={project5} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -134,7 +140,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -148,7 +154,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -173,7 +179,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -187,7 +193,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -212,7 +218,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -226,7 +232,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/1.png"} alt="img" />
+				  <img src={project1} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -251,7 +257,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -269,7 +275,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -294,7 +300,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -308,7 +314,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/1.png" }alt="img" />
+				  <img src={project1 }alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -333,7 +339,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -347,7 +353,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
+				  <img src={project5} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -372,7 +378,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -386,7 +392,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -411,7 +417,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -425,7 +431,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
+				  <img src={project2} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -450,7 +456,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -464,7 +470,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4 col-md-6">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/8.png"} alt="img" />
+				  <img src={project8} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -489,7 +495,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -507,7 +513,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -532,7 +538,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -546,7 +552,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/1.png"} alt="img" />
+				  <img src={project1} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -571,7 +577,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -585,7 +591,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
+				  <img src={project2} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -610,7 +616,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -624,7 +630,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/8.png"} alt="img" />
+				  <img src={project8} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -649,7 +655,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -663,7 +669,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
+				  <img src={project5} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -688,7 +694,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -702,7 +708,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -727,7 +733,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -745,7 +751,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/8.png"} alt="img" />
+				  <img src={project8} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -770,7 +776,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -784,7 +790,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/5.png"} alt="img" />
+				  <img src={project5} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -809,7 +815,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -823,7 +829,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png" }alt="img" />
+				  <img src={project3}alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -848,7 +854,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -862,7 +868,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/2.png"} alt="img" />
+				  <img src={project2} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -887,7 +893,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -901,7 +907,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/3.png"} alt="img" />
+				  <img src={project3} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -926,7 +932,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>
@@ -940,7 +946,7 @@ const PropertyFilter = () => {
 			<div className="col-lg-4">
 			  <div className="single-product-wrap style-3">
 				<div className="thumb">
-				  <img src={publicUrl+"assets/img/project/1.png"} alt="img" />
+				  <img src={project1} alt="img" />
 				</div> 
 				<div className="product-details-inner">
 				  <div className="row">
@@ -965,7 +971,7 @@ const PropertyFilter = () => {
 					</div>
 				  </div>
 				  <ul className="meta-inner">
-					<li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					<li><img src={location} alt="img" />New York real estate</li>
 					<li>
 					</li></ul>
 				</div>

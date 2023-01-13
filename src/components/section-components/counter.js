@@ -1,8 +1,8 @@
 import React from 'react';
+import bg from '../../assest/img/other/6.png'
 
 const Counter = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
-return(<div className="couner-area bg-overlay pd-top-118 pd-bottom-120" style={{background: 'url('+publicUrl+'assets/img/other/6.png)'}}>
+return(<div className="couner-area bg-overlay pd-top-118 pd-bottom-120" style={{background: `url(${bg})`}}>
 <div className="container">
   <div className="row">
     <div className="col-sm-3">

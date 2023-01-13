@@ -1,9 +1,8 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
 
 const PropertyGrid = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	 let publicUrl = process.env.PUBLIC_URL+'/'
 	useEffect(() =>{
 		const $ = window.$;
 

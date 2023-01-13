@@ -1,8 +1,11 @@
 import React from 'react';
+import author4 from '../../assest/images/author4.png'
+import author2 from '../../assest/images/author2.png'
+import author3 from '../../assest/images/author3.png'
 
 
 const Agent  = () => {
-  let publicUrl = process.env.PUBLIC_URL+'/'
+  // let publicUrl = process.env.PUBLIC_URL+'/'
   return(
     <div className="agent-area text-center pd-top-118 pd-bottom-90">
           <div className="container">
@@ -14,7 +17,7 @@ const Agent  = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="single-agent-wrap">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/images/author4.png"} alt="img" />
+                    <img src={author4} alt="img" />
                   </div> 
                   <div className="details">
                     <h4>Sandara mkpokiti</h4>
@@ -31,7 +34,7 @@ const Agent  = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="single-agent-wrap">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/images/author2.png"} alt="img" />
+                    <img src={author2} alt="img" />
                   </div> 
                   <div className="details">
                     <h4>Oyibo Victor</h4>
@@ -48,7 +51,7 @@ const Agent  = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="single-agent-wrap">
                   <div className="thumb">
-                    <img src={publicUrl+"assets/images/author3.png"} alt="img" />
+                    <img src={author3} alt="img" />
                   </div> 
                   <div className="details">
                     <h4>Stella Maris</h4>

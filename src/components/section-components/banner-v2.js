@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import banner from '../../assest/img/banner/2.png'
 
 const BannerV2 = () => {
-	let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
-		<div className="banner-area banner-area-2 banner-area-bg" style={{background: 'url('+publicUrl+'assets/img/banner/2.png)'}}>
+		<div className="banner-area banner-area-2 banner-area-bg" style={{background: `url(${banner})`}}>
 			  <div className="main-search-area">
 			    <div className="container">
 			      <form className="main-search-inner pl-0 pr-0">

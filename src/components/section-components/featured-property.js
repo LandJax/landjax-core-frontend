@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import project from '../../assest/img/project/13.png'
+import project2 from '../../assest/img/project/14.png'
+import location from'../../assest/img/icon/location2.png'
 const FeaturedProperty = () =>{
-	let publicUrl = process.env.PUBLIC_URL+'/'
+
 	return(<div className="featured-area pd-top-118 pd-bottom-90">
 	<div className="container">
 	  <div className="section-title text-center">
@@ -13,7 +15,7 @@ const FeaturedProperty = () =>{
 		<div className="col-md-6">
 		  <div className="single-product-wrap">
 			<div className="thumb">
-			  <img src={publicUrl+"assets/img/project/13.png"} alt="img" />
+			  <img src={project} alt="img" />
 			  <div className="btn-area">
 				<Link className="btn btn-base btn-sm" to="/property">BUY</Link>
 				<Link className="btn btn-base btn-sm" to="/property">RENT</Link>
@@ -25,7 +27,7 @@ const FeaturedProperty = () =>{
 				<div className="row">
 				  <div className="col-10">
 					<ul className="meta-inner mb-0">
-					  <li><img src={publicUrl+"assets/img/icon/location2.png"} alt="img" />New York real estate</li>
+					  <li><img src={location} alt="img" />New York real estate</li>
 					  <li>
 					  </li></ul>
 				  </div>
@@ -47,7 +49,7 @@ const FeaturedProperty = () =>{
 		<div className="col-md-6">
 		  <div className="single-product-wrap">
 			<div className="thumb">
-			  <img src={publicUrl+"assets/img/project/14.png"} alt="img" />
+			  <img src={project2} alt="img" />
 			  <div className="btn-area">
 				<Link className="btn btn-base btn-sm" to="/property">BUY</Link>
 				<Link className="btn btn-base btn-sm" to="/property">RENT</Link>
@@ -59,7 +61,7 @@ const FeaturedProperty = () =>{
 				<div className="row">
 				  <div className="col-10">
 					<ul className="meta-inner mb-0">
-					  <li><img src={publicUrl+"assets/img/icon/location2.png" }alt="img" />New York real estate</li>
+					  <li><img src={location}alt="img" />New York real estate</li>
 					  <li>
 					  </li></ul>
 				  </div>

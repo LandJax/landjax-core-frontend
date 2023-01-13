@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import bg from '../../assest/images/3.png'
 
 
 const Banner = () => {
 	
-	let publicUrl = process.env.PUBLIC_URL+'/'
+	// let publicUrl = process.env.PUBLIC_URL+'/'
 	return(
-		<div className="banner-area banner-area-1 banner-area-bg" style={{background: 'url('+publicUrl+'assets/images/3.png)'}}>
+		<div className="banner-area banner-area-1 banner-area-bg" style={{background: `url(${bg})`}}>
 			  <div className="container">
 			    <div className="banner-area-inner">
 			      <div className="row justify-content-center">

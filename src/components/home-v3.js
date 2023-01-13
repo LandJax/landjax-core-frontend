@@ -14,7 +14,7 @@ import Footer from './global-components/footer';
 
 const Home_V3 = () => {
     return <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <Banner />
         <About />
         <Product />
@@ -25,7 +25,7 @@ const Home_V3 = () => {
         <Agent />
         <FeaturedProperty />
         <LatestNews />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
 
