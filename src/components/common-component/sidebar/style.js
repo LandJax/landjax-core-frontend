@@ -7,8 +7,7 @@ height: 100vh;
 position: fixed;
 top: 0;
 left: 0;
-/* right: 0;
-bottom: 0; */
+transition: .5s ease;
 background:${color.secondaryColor};
 .cancel{
     display: flex;
@@ -44,6 +43,7 @@ img{
   height: 12.5rem;
   object-fit: cover;
   border-radius:100%;
+  
   @media (max-width: 768px) {
     width: 8.5rem;
 height: 8.5rem;
@@ -104,6 +104,6 @@ margin-bottom:0.5rem;
 }
 .is_active{
     color:${color.placeholder};
-    background:red;
+    background:rgba(82, 104, 133, 0.1) !important;
 }
 `

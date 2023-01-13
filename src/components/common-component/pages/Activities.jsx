@@ -1,9 +1,10 @@
 import React from 'react'
-import { DashboardWrapper } from './style'
-import DashboardSidebar from '../common-component/sidebar/Sidebar'
-import DashboardPages from '../common-component/pages/DashboardPages'
+import DashboardSidebar from '../sidebar/Sidebar'
+import DashboardPages from '../../Dashboard/DashboardPages'
+import { DashboardWrapper } from './pagestyle'
 
 const Activities = () => {
+  
   return (
     <DashboardWrapper>
       <DashboardSidebar/>
