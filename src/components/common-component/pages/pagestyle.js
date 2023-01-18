@@ -55,7 +55,7 @@ font-family: 'Inter', sans-serif;
 export const InventoryWrapper = styled.div`
 display: flex;
 flex-wrap:wrap;
- gap: 2rem;
+ gap: 1rem;
 padding: 3rem 4rem;
 @media (max-width: 768px) {
     flex-wrap:nowrap; 
@@ -63,21 +63,49 @@ padding: 3rem 4rem;
     padding: 1rem;
   }
 
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background:#5C6273;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    opacity:0;
+    transition: 1s ease;
+    padding: 1rem;
+    .detail{
+        font-size:16px;
+      color: white;
+    }
+    .title{
+      font-size:12px;
+      color: white;
+    }
+}
+
 .img_holder{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     justify-content:center;
+    position: relative;
+
+    &:hover .overlay {
+  opacity: 1;
+  }
     @media (max-width: 768px) {
         width: 100%;
   }
     img{
-        width: 19rem;
-        height: 19rem;
+        width: 15rem;
+        height: 15rem;
         object-fit:contain;
         @media (max-width: 768px) {
             object-fit:cover;
   }
     }
 }
+
 `
