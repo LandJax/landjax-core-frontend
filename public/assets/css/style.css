@@ -42,8 +42,9 @@ Version: 1.0.3
 /*-----------------
     # Typography
 -----------------*/
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,600,700,800display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:400,400i,500,600,700,800&display=swap');
+/* @import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500,600,700,800display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:400,400i,500,600,700,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
 /***transition***/
 :root {
@@ -51,8 +52,11 @@ Version: 1.0.3
   /* --main-color: #5ba600; */
   --heading-color: #0d1741;
   --paragraph-color: #565872;
-  --heading-font: "Rubik", sans-serif;
-  --body-font: "Rubik", sans-serif;
+  /* --heading-font: "Rubik", sans-serif;
+  --body-font: "Rubik", sans-serif,; */
+  --heading-font: 'Nunito Sans', sans-serif ;
+  --body-font: 'Nunito Sans', sans-serif ;
+
   --body-font-size: 16px;
   --line-height30: 1.7;
 }

@@ -1,0 +1,29 @@
+
+
+#house_section{
+    background: url("../asserts/bg-img.png");
+
+}
+
+.text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    
+}
+
+.text-section h1{
+    font-size: 30px;
+    color: white;
+}
+
+.text-section p{
+    font-size: 12px;
+    color: white;
+    width: 80%;
+}
+
+.input_fleids{
+background-color:red ;
+}
