@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import bg_img from "./asserts/bg-img.png"
 import logo from "./asserts/logo.png"
 import "./Css/style.css"
+import { FaFacebook } from 'react-icons/fa'
 
 const SignUp = () => {
 	useEffect(() => {
@@ -36,63 +37,75 @@ const SignUp = () => {
 					<div className="col-12 col-xl-6 col-lg-6" style={{ backgroundColor: "#1C0335" }} >
 
 						<div className='mt-5 text-center'>
-							<h1 style={{fontSize:35,fontWeight:800,color:'white'}}>Join Landjax</h1>
+							<h1 style={{ fontSize: 35, fontWeight: 800, color: 'white' }}>Join Landjax</h1>
 
 							<p className='text-light'>Already have an account? <a href="" className='text-primary'>Login</a></p>
-							
-							<div className=" ">
-									<button style={{width:"70%"}}>Join</button>
-								</div>
+
+							<div className='d-flex justify-content-center' >
+								<button className="d-flex justify-content-center" style={{ width: "70%", backgroundColor: "#CFE2FC", borderRadius: 10, padding: "5px 0px" }}>
+									<FaFacebook size={20} />
+
+									<span style={{ fontSize: "15px", fontWeight: "700", padding: "0 20px" }}>Join using Facebook</span>
+
+								</button>
+							</div>
 						</div>
-						<form className="signin-inner" style={{ backgroundColor: "#1C0335", margin: 0, }}>
-							<div className="row">
 
-								<div className='row mx-xl-2 mx-1'>
-									<div className="col-12 col-xl-6 col-lg-6">
+
+
+						<form className="signin-inner" style={{ backgroundColor: "#1C0335", margin: 0, width:'100%'}}>
+							<div className='d-xl-flex flex-column justify-content-center align-items-center ' >
+								<div className="row">
+
+									<div className='row mx-xl-3 mx-xl-1'>
+										<div className="col-12 col-xl-6 col-lg-5">
+											<label className="single-input-inner style-bg-border">
+												<span className='text-light'>First Name</span>
+												<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
+											</label>
+										</div>
+
+										<div className="col-12 col-xl-5 col-lg-5">
+											<label className="single-input-inner style-bg-border">
+												<span className='text-light'>Last Name</span>
+												<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
+											</label>
+										</div>
+									</div>
+
+									<div className="col-xl-11 mx-xl-2 mx-xl-1">
+										<span className='text-light'>Email</span>
 										<label className="single-input-inner style-bg-border">
-											<span className='text-light'>First Name</span>
-											<input type="text" placeholder="" style={{width:"100%",backgroundColor:"#1C0335",color:"white"}} />
+
+											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
 										</label>
 									</div>
 
-									<div className="col-12 col-xl-5 col-lg-6">
+									<div className="col-xl-11 mx-xl-2 mx-xl-1">
 										<label className="single-input-inner style-bg-border">
-										<span className='text-light'>Last Name</span>
-											<input type="text" placeholder="" style={{width:"100%",backgroundColor:"#1C0335",color:"white"}} />
+											<span > <span className='text-light'>Username</span> <span>( only letters, numbers, and underscores)</span> </span>
+
+											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
 										</label>
 									</div>
+
+									<div className="col-xl-11 mx-xl-2 mx-xl-1">
+										<label className="single-input-inner style-bg-border">
+											<span > <span className='text-light'>Password</span> <span>(min 8 char)</span> </span>
+											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
+										</label>
+									</div>
+
+									<div className="col-xl-11 mx-xl-2 mx-xl-1 mb-4 ">
+										<button className="btn btn-base w-100  ">Join</button>
+									</div>
+									<div className="col-12 text-center" style={{ fontSize: 12 }}>
+										<span>By joining <span className='text-light'>Landjax</span> community you agree to the terms and privacy  </span>
+
+									</div>
+
 								</div>
 
-								<div className="col-xl-11 mx-xl-2 mx-1">
-								<span className='text-light'>Email</span>
-									<label className="single-input-inner style-bg-border">
-
-										<input type="text" placeholder="" style={{width:"100%",backgroundColor:"#1C0335",color:"white"}}	 />
-									</label>
-								</div>
-
-								<div className="col-xl-11 mx-xl-2 mx-1">
-									<label className="single-input-inner style-bg-border">
-									<span > <span className='text-light'>Username</span> <span>( only letters, numbers, and underscores)</span> </span>
-
-										<input type="text" placeholder="" style={{width:"100%",backgroundColor:"#1C0335",color:"white"}} />
-									</label>
-								</div>
-
-								<div className="col-xl-11 mx-xl-2 mx-1">
-									<label className="single-input-inner style-bg-border">
-									<span > <span className='text-light'>Password</span> <span>(min 8 char)</span> </span>
-										<input type="text" placeholder="" style={{width:"100%",backgroundColor:"#1C0335",color:"white"}} />
-									</label>
-								</div>
-								
-								<div className="col-xl-11 mx-xl-2 mx-1 mb-4 ">
-									<button className="btn btn-base w-100  ">Join</button>
-								</div>
-								<div className="col-12 text-center" style={{fontSize:12}}>
-									<span>By joining <span className='text-light'>Landjax</span> community you agree to the terms and privacy  </span>
-								
-								</div>
 							</div>
 						</form>
 					</div>

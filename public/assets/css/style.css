@@ -4742,11 +4742,12 @@ ul {
   width: 100%;
   left: 0;
   top: 0;
-  background: rgba(6, 21, 57, 0.98);
+  background: #1C0335;
+
 }
 
 .footer-area.style-two .footer-top {
-  background: rgba(42, 129, 234, 0.15);
+  background: #CFE2FC;
 }
 
 .footer-area .widget {
