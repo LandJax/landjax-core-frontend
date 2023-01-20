@@ -82,7 +82,7 @@ const SignIn = () => {
 									</div>
 
 									<div className="col-xl-11 mx-xl-2 mx-xl-1 mb-4 ">
-										<button className="btn btn-base w-100  ">Join</button>
+										<button className="btn btn-base w-100  ">Login</button>
 									</div>
 									<div className="col-12 text-center" style={{ fontSize: 12 }}>
 										<span>By joining <span className='text-light'>Landjax</span> community you agree to the terms and privacy  </span>
