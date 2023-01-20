@@ -45,9 +45,9 @@ const Footer_v2 = () => {
 			<div className="footer-middle">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-4 col-md-6">
+						<div className="col-lg-4 col-md-4">
 							<div className="widget widget_about">
-								<h4 className="widget-title">Contact Us</h4>
+								<h4 className="widget-title">HNG High School</h4>
 								<div className="details">
 									<p><i className="fas fa-map-marker-alt" />
 										Founded in 1976 to provide independent brokerages
@@ -66,7 +66,7 @@ const Footer_v2 = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-6">
+						<div className="col-lg-4 col-md-4">
 							<div className="widget widget_nav_menu">
 								<h4 className="widget-title">NEWS FEED</h4>
 								<ul>
@@ -77,7 +77,7 @@ const Footer_v2 = () => {
 								</ul>
 							</div>
 						</div>
-						<div className="col-lg-2 col-md-6">
+						<div className="col-lg-4 col-md-4">
 							<div className="widget widget_nav_menu">
 								<h4 className="widget-title">NEWS LETTER</h4>
 								<ul>
@@ -103,7 +103,7 @@ const Footer_v2 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="footer-bottom">
+			{/* <div className="footer-bottom">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-6 align-self-center">
@@ -127,7 +127,7 @@ const Footer_v2 = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</footer>
 
 

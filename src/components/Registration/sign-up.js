@@ -49,6 +49,8 @@ const SignUp = () => {
 
 								</button>
 							</div>
+							<p className='mt-3 text-light'> OR </p>
+
 						</div>
 
 
