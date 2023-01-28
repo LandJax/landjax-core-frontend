@@ -43,7 +43,7 @@ const SignIn = () => {
 
 							<div className='d-flex justify-content-center  mx-5' >
 
-								<Custombutton  text={'Join using Facebook'} className={'w-100'} buttonColor={'#CFE2FC'} icon={'facebook'} />
+								<Custombutton  text={'Join using Facebook'} className={'btn btn-base w-100'} buttonColor={'#CFE2FC'} icon={'facebook'} />
 							</div>
 							<p className='mt-2 text-light'> OR </p>
 
@@ -70,7 +70,7 @@ const SignIn = () => {
 
 									{/* login button */}
 									<div className="col-xl-12 mb-4 ">
-										<Custombutton className={'text-dark w-100'} buttonColor={'#CFE2FC'} text={'Join'} />
+										<Custombutton className={'text-dark btn btn-base w-100 w-100'} buttonColor={'#CFE2FC'} text={'Join'} />
 									</div>
 
 
