@@ -3,6 +3,8 @@ import bg_img from "./asserts/bg-img.png"
 import logo from "./asserts/logo.png"
 import "./Css/style.css"
 import { FaFacebook } from 'react-icons/fa'
+import CustomField from '../UI/CustomField';
+import Custombutton from '../UI/Custombutton';
 
 const SignUp = () => {
 	useEffect(() => {
@@ -40,14 +42,10 @@ const SignUp = () => {
 							<h1 style={{ fontSize: 35, fontWeight: 800, color: 'white' }}>Join Landjax</h1>
 
 							<p className='text-light'>Already have an account? <a href="" className='text-primary'>Login</a></p>
+							
+							<div className='d-flex justify-content-center  mx-5' >
 
-							<div className='d-flex justify-content-center' >
-								<button className="d-flex justify-content-center" style={{ width: "70%", backgroundColor: "#CFE2FC", borderRadius: 10, padding: "5px 0px" }}>
-									<FaFacebook size={20} />
-
-									<span style={{ fontSize: "15px", fontWeight: "700", padding: "0 20px" }}>Join using Facebook</span>
-
-								</button>
+								<Custombutton text={'Join using Facebook'} className={'btn btn-base w-100'} buttonColor={'#CFE2FC'} icon={'facebook'} />
 							</div>
 							<p className='mt-3 text-light'> OR </p>
 
@@ -55,50 +53,53 @@ const SignUp = () => {
 
 
 
-						<form className="signin-inner" style={{ backgroundColor: "#1C0335", margin: 0, width:'100%'}}>
+						<form className="signin-inner" style={{ backgroundColor: "#1C0335", margin: 0, width: '100%' }}>
 							<div className='d-xl-flex flex-column justify-content-center align-items-center ' >
 								<div className="row">
 
-									<div className='row mx-xl-3 mx-xl-1'>
-										<div className="col-12 col-xl-6 col-lg-5">
-											<label className="single-input-inner style-bg-border">
-												<span className='text-light'>First Name</span>
-												<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-											</label>
+									<div className='row  mx-xl-1 w-100 d-none d-xl-flex '>
+
+										{/* email */}
+										<div className="col-12 col-xl-6">
+											<CustomField label={'First Name'} labelStyle={'text-light'} placeholder={'john doe'} fontSize={20} className={'text-light'} width={'100%'} />
 										</div>
 
-										<div className="col-12 col-xl-5 col-lg-5">
-											<label className="single-input-inner style-bg-border">
-												<span className='text-light'>Last Name</span>
-												<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-											</label>
+										<div className="col-12 col-xl-6">
+											<CustomField label={'Last Name'} labelStyle={'text-light'} placeholder={'Hello@gmail.com'} fontSize={20} className={'text-light'} width={'100%'} />
+										</div>
+
+									</div>
+
+
+									<div className='d-xl-none w-100 '>
+										{/* email */}
+										<div className="col-12 ">
+											<CustomField label={'First Name'} labelStyle={'text-light'} placeholder={'john doe'} fontSize={20} className={'text-light'} width={'100%'} />
+										</div>
+
+										<div className="col-12 ">
+											<CustomField label={'Last Name'} labelStyle={'text-light'} placeholder={'Hello@gmail.com'} fontSize={20} className={'text-light'} width={'100%'} />
 										</div>
 									</div>
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1">
-										<span className='text-light'>Email</span>
-										<label className="single-input-inner style-bg-border">
 
-											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-										</label>
+									<div className="col-12 col-xl-12 my-2">
+										<CustomField label={'Email'} labelStyle={'text-light'} placeholder={'Hello@gmail.com'} fontSize={20} className={'text-light'} width={'100%'} />
 									</div>
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1">
-										<label className="single-input-inner style-bg-border">
-											<span > <span className='text-light'>Username</span> <span>( only letters, numbers, and underscores)</span> </span>
 
-											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-										</label>
+
+									<div className="col-12 col-xl-12 my-2">
+										<CustomField label={'Username'} labelStyle={'text-light'} placeholder={'username'} fontSize={20} className={'text-light'} width={'100%'} />
 									</div>
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1">
-										<label className="single-input-inner style-bg-border">
-											<span > <span className='text-light'>Password</span> <span>(min 8 char)</span> </span>
-											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-										</label>
+
+
+									<div className="col-12 col-xl-12 my-2">
+										<CustomField label={'Password'} labelStyle={'text-light'} placeholder={'12345'} fontSize={20} className={'text-light'} width={'100%'} />
 									</div>
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1 mb-4 ">
+									<div className="col-12 col-xl-12 mb-4 ">
 										<button className="btn btn-base w-100  ">Join</button>
 									</div>
 									<div className="col-12 text-center" style={{ fontSize: 12 }}>
@@ -134,7 +135,7 @@ const SignUp = () => {
 //     return <div className="signup-page-area pd-top-100">
 // 			  <div className="container">
 // 			    <div className="row justify-content-center">
-// 			      <div className="col-xl-6 col-lg-7">
+// 			      <div className="col-12 col-xl-6 col-lg-7">
 // 			        <form className="signin-inner">
 // 			          <div className="row">
 // 			            <div className="col-12">

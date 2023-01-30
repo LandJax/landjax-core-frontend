@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import logo from "./asserts/logo.png"
 import "./Css/style.css"
 import { FaFacebook } from 'react-icons/fa'
+import Custombutton from '../UI/Custombutton';
+import CustomField from '../UI/CustomField';
 
 const SignIn = () => {
 
@@ -39,16 +41,11 @@ const SignIn = () => {
 						<div className='mt-5 text-center'>
 							<h1 style={{ fontSize: 35, fontWeight: 800, color: 'white' }}>Login</h1>
 
+							<div className='d-flex justify-content-center  mx-5' >
 
-							<div className='d-flex justify-content-center' >
-								<button className="d-flex justify-content-center" style={{ width: "70%", backgroundColor: "#CFE2FC", borderRadius: 10, padding: "5px 0px" }}>
-									<FaFacebook size={20} />
-
-									<span style={{ fontSize: "15px", fontWeight: "700", padding: "0 20px" }}>Join using Facebook</span>
-
-								</button>
+								<Custombutton  text={'Join using Facebook'} className={'btn btn-base w-100'} buttonColor={'#CFE2FC'} icon={'facebook'} />
 							</div>
-							<p className='mt-3 text-light'> OR </p>
+							<p className='mt-2 text-light'> OR </p>
 
 						</div>
 
@@ -59,34 +56,26 @@ const SignIn = () => {
 								<div className="row">
 
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1">
-										<span className='text-light'>Email</span>
-										<label className="single-input-inner style-bg-border">
-
-											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-										</label>
+									{/* email */}
+									<div className="col-xl-12">
+										<CustomField label={'Email'} labelStyle={'text-light'} placeholder={'Hello@gmail.com'} fontSize={20} className={'text-light'} width={'100%'} />
 									</div>
 
 
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1">
-										<label className="single-input-inner style-bg-border">
-
-											<div className='d-xl-flex justify-content-xl-between '>
-												<p > <span className='text-light'>Password</span> <span>(min 8 char)</span> </p>
-												<p className='text-light'><a href="">Forgot Password?</a></p> 
-											</div>
-
-											<input type="text" placeholder="" style={{ width: "100%", backgroundColor: "#1C0335", color: "white" }} />
-										</label>
+									{/* passsword */}
+									<div className="col-xl-12 my-4">
+										<CustomField label={'Password'} labelStyle={'text-white'} className={'text-white'} />
 									</div>
 
-									<div className="col-xl-11 mx-xl-2 mx-xl-1 mb-4 ">
-										<button className="btn btn-base w-100  ">Login</button>
+									{/* login button */}
+									<div className="col-xl-12 mb-4 ">
+										<Custombutton className={'text-dark btn btn-base w-100 w-100'} buttonColor={'#CFE2FC'} text={'Join'} />
 									</div>
+
+
 									<div className="col-12 text-center" style={{ fontSize: 12 }}>
 										<span>By joining <span className='text-light'>Landjax</span> community you agree to the terms and privacy  </span>
-
 									</div>
 
 								</div>
