@@ -1,6 +1,8 @@
 export const color = {
     primary:'#0d1741',
     secondaryColor:'#CFE2FC',
+    landJaxPrimaryColor:'#061539',
+    landJaxSecondaryColor:'#CDF0F2',
     white:'#fff',
     black:'#333',
     red:'#ff3333',

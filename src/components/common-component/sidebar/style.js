@@ -8,7 +8,7 @@ position: fixed;
 top: 0;
 left: 0;
 transition: .5s ease;
-background:${color.secondaryColor};
+background:${color.landJaxPrimaryColor};
 .cancel{
     display: flex;
     justify-content:flex-end;
@@ -82,7 +82,7 @@ ul{
     color: ${color.white};
     li{
         .tab_link{
-background: rgba(246, 255, 252, 0.5);
+background: rgba(246, 255, 252, 0.2);
 border-radius: 5px;
 padding: 1.5rem 0rem;
 display: flex;
@@ -104,6 +104,6 @@ margin-bottom:0.5rem;
 }
 .is_active{
     color:${color.placeholder};
-    background:rgba(82, 104, 133, 0.1) !important;
+    background:${color.landJaxSecondaryColor} !important;
 }
 `
