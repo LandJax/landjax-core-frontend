@@ -99,8 +99,8 @@ const SignUp = () => {
 										<CustomField label={'Password'} labelStyle={'text-light'} placeholder={'12345'} fontSize={20} className={'text-light'} width={'100%'} />
 									</div>
 
-									<div className="col-12 col-xl-12 mb-4 ">
-										<button className="btn btn-base w-100  ">Join</button>
+									<div className="col-12 col-xl-12 mb-4 mt-4">
+									<Custombutton className={'text-dark btn btn-base w-100 w-100'} buttonColor={'#CFE2FC'} text={'Join'} />
 									</div>
 									<div className="col-12 text-center" style={{ fontSize: 12 }}>
 										<span>By joining <span className='text-light'>Landjax</span> community you agree to the terms and privacy  </span>

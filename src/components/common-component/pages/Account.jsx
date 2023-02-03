@@ -60,7 +60,7 @@ const Account = () => {
 
        </AccountFormWrapper>
        <div className='savebtn'>  
-  <Custombutton text='Save Changes' color={color.placeholder} fontSize='18px' bg={color.secondaryColor}/>
+  <Custombutton text='Save Changes' color={color.placeholder} fontSize='18px' bg={color.landJaxSecondaryColor}/>
       </div>
         </div>
        </DashboardPages>
